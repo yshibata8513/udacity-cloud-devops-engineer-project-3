@@ -503,6 +503,7 @@ workflows:
             branches:
               only:
                 - master
+                
       - deploy-backend:
           requires:
             - run-migrations
